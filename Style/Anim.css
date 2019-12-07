@@ -1,0 +1,65 @@
+#BaseForm2:hover
+{
+    transition: 1s;
+    box-shadow: 0 0 55px rgb(234, 234, 255);
+}
+
+#BaseForm2 #LabelKhoroshaeva
+{
+    transition: 1s;
+}
+
+#BaseForm2:hover #LabelKhoroshaeva
+{
+    font-size: 35pt;
+    left: 35%;
+    top: 20%;
+}
+
+#BaseForm2 #TextKhoroshaeva
+{
+    transition: 1s;
+}
+
+#BaseForm2:hover #TextKhoroshaeva
+{
+    font-size: 15pt;
+    top: 32%;
+    left: 42%;
+    width: 160px; 
+}
+
+#BaseForm2 #lineText
+{
+    transition: 1s;
+}
+#BaseForm2:hover #lineText
+{
+    transition: 1s;
+    top: 35%;
+    width: 265px;
+    left: 280px;
+    
+}
+
+#BaseForm2:hover #Site
+{
+    transition: 2s ease-in;
+    opacity: 1;
+}
+
+#BaseForm2:hover #Insta
+{
+    transition: 2s ease-in;
+    opacity: 1;
+}
+#BaseForm2:hover #vk
+{
+    transition: 1.7s ease-in;
+    opacity: 1;
+}
+#BaseForm2:hover #viber
+{
+    transition: 1.3s ease-in;
+    opacity: 1;
+}

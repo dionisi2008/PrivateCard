@@ -1,0 +1,111 @@
+body
+{
+        background-color: rgb(85, 85, 85); 
+}
+#BaseForm1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    
+}
+#BaseForm2
+{
+    border-radius: 5px 5px 5px 5px;
+    transition: 1s;
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 0 55px rgb(0, 0, 0);
+}
+
+#BaseForm2 #LabelKhoroshaeva
+{
+    color: rgb(41, 41, 41);  
+    display: block;
+    position: absolute;
+    font-family: 'Nanum Myeongjo';
+    font-size: 60pt;
+    top: 33%;
+    left: 22%;
+}
+
+#BaseForm2 #TextKhoroshaeva
+{
+    z-index: 1;
+    color: rgb(41, 41, 41); 
+    display: block;
+    position: absolute;
+    font-family: 'Nanum Myeongjo';
+    background-color: white;
+    font-size: 22pt;
+    top: 51%;
+    left: 36%;
+    width: 235px;
+    text-align: center;
+}
+#BaseForm2 #lineText
+{
+    z-index: 0;
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    font-family: 'Nanum Myeongjo';
+    background-color: rgb(41, 41, 41);
+    height: 2px;
+    width: 450px;
+}
+
+#BaseForm2 #Site
+{
+    transition: 0.3s;
+    font-family: 'Nanum Myeongjo';
+    opacity: 0;
+    color:  rgb(85, 85, 85); 
+    position: absolute;
+    top: 39%;
+    font-size: 14pt;
+    left: 32%;
+}
+
+#BaseForm2 #Insta
+{
+    transition: 0.3s;
+    font-family: 'Nanum Myeongjo';
+    opacity: 0;
+    color:  rgb(85, 85, 85); 
+    position: absolute;
+    top: 45%;
+    font-size: 14pt;
+    left: 30%;
+}
+
+#BaseForm2 #vk
+{
+    transition: 0.3s;
+    font-family: 'Nanum Myeongjo';
+    opacity: 0;
+    color:  rgb(85, 85, 85); 
+    position: absolute;
+    top: 51%;
+    font-size: 14pt;
+    left: 34%;
+}
+
+#BaseForm2 #viber
+{
+    transition: 0.3s;
+    font-family: 'Nanum Myeongjo';
+    opacity: 0;
+    color:  rgb(85, 85, 85); 
+    position: absolute;
+    top: 57%;
+    font-size: 14pt;
+    left: 40%;
+}
